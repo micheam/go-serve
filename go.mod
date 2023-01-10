@@ -1,3 +1,3 @@
-module micheam.com/serve
+module github.com/micheam/go-serve
 
 go 1.19
