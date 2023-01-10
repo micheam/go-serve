@@ -18,5 +18,7 @@ func main() {
 
 	fs := http.FileServer(http.Dir(cwd))
 	http.Handle("/", fs)
+
+	fmt.Println("server start with " + *port)
 	http.ListenAndServe(":"+*port, nil)
 }
