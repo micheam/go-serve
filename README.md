@@ -20,12 +20,15 @@ Examples:
 ## Installation
 Install via the `go install` command:
 
-    $ go install github.com/micheam/serve@latest
-    $ serve -port 6000 /path/to/directory
+```sh
+go install github.com/micheam/serve@latest
+```
 
 or, Run directly via the `go run`:
 
-    $ go run github.com/micheam/serve@latest -port 6000 .
+```sh
+go run github.com/micheam/serve@latest -port 6000 .
+```
 
 ## License
 MIT
