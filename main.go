@@ -63,6 +63,5 @@ func run(_ context.Context) error {
 
 	fmt.Println("serving " + cwd)
 	fmt.Println("listening on port " + *port)
-
 	return http.ListenAndServe(":"+*port, nil)
 }
