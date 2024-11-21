@@ -1,4 +1,4 @@
-# serve
+# serve [![Go](https://github.com/micheam/serve/actions/workflows/go.yml/badge.svg)](https://github.com/micheam/serve/actions/workflows/go.yml)
 Tiny Program, which serves the current dir on HTTP GET.
 
 ## Usage
