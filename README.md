@@ -27,7 +27,7 @@ go install github.com/micheam/serve@latest
 or, Run directly via the `go run`:
 
 ```sh
-go run github.com/micheam/serve@latest -port 6000 .
+go run github.com/micheam/serve@latest
 ```
 
 ## License
